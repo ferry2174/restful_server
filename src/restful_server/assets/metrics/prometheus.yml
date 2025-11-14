@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s  # 每 15 秒抓取一次指标
+
+scrape_configs:
+  - job_name: 'restful_server'
+    static_configs:
+      - targets: ['172.17.0.1:8091']
+        labels:
+          group: 'restful_server'
+    metrics_path: /metrics
+

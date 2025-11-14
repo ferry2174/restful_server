@@ -1,0 +1,12 @@
+# 包含指定文件和目录
+include src/restful_server/frontend/static/*
+include src/restful_server/frontend/templates/*
+include src/restful_server/assets/*
+include src/restful_server/config/*
+include src/restful_server/scripts/*
+
+# 排除不需要的文件和目录
+exclude src/restful_server/cosyvoice/*
+exclude src/restful_server/matcha/*
+exclude src/restful_server/utilities.ipynb
+exclude src/test/*
