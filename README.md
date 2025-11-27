@@ -1,4 +1,4 @@
-# Python Restful Framework
+# Scalable Python RESTful API Framework with Enterprise-Grade Observability & Integration
 
 ---------------------
 
