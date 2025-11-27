@@ -146,3 +146,5 @@ tmp*
 test_main.ipynb
 
 node_modules/
+
+.cursor/
