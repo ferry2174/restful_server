@@ -28,6 +28,7 @@ install_requires = [
     "jinja2==3.1.6",
     "cx_freeze==8.3.0",
     "aiomysql==0.2.0",
+    "asyncpg==0.31.0",
     "aiokafka==0.12.0",
     "pyyaml==6.0.2",
     "google_play_scraper==1.2.7",
